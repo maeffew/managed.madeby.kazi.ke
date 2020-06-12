@@ -1335,6 +1335,8 @@ html:not(.is-mobile) .c-header_invert:hover .c-header_invert_dot:after {
     -webkit-tap-highlight-color:transparent
 }
 
+.mandhari-logo { fill:black;}
+
 @media (max-width: 699px) {
     .c-button {
         font-size:20px
@@ -1416,11 +1418,10 @@ html:not(.is-mobile) .c-header_invert:hover .c-header_invert_dot:after {
     background-color:#f4f4f4
 }
 
+
 @media (max-width: 999px) {
     .c-button.-whiteInvert {
-        background-color: #1a1a1a;
-        color: #f4f4f4;
-        border:2px solid #1a1a1a
+        fill: black;
     }
 
     .is-invert .c-button.-whiteInvert {
