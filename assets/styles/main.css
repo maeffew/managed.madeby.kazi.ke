@@ -616,6 +616,12 @@ hr {
     }
 }
 
+body > header > div.c-header_inner > p > a > svg {
+
+    width: 180px;
+    height: auto;
+    
+}
 .c-header_link {
     position: relative;
     display: inline-block;
