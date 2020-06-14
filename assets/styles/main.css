@@ -582,6 +582,31 @@ hr {
     justify-content:space-between
 }
 
+@media (min-width: 700px) {
+    .hero-container-left {
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    }
+    .hero-container-right {
+        width: 50vw;
+    height: 100vh;
+        float: right;
+        }
+    }
+@media (max-width: 699px) {
+.hero-container-left {
+width: 100vw;
+height: 50vh;
+float: left;
+}
+.hero-container-right {
+    width: 100vw;
+    height: 50vh;
+    float: right;
+    }
+}
+
 @media (max-width: 699px) {
     .c-header_inner {
         position: fixed;
@@ -620,7 +645,7 @@ body > header > div.c-header_inner > p > a > svg {
 
     width: 180px;
     height: auto;
-    
+
 }
 .c-header_link {
     position: relative;
